@@ -1,2 +1,3 @@
 # Akan-name-generator
-An application that gives you your akan name
+ The best application that gives you your akan name
+

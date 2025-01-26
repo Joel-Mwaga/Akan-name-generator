@@ -5,7 +5,7 @@ function generateAkanName() {
     const gender = document.getElementById('gender').value;
 
     if (!day || !month || !year || !gender) {
-      document.getElementById('result').textContent = 'Please fill out all fields correctly.';
+      document.getElementById('result').textContent = 'Please  answer correctly.';
       return;
     }
 
