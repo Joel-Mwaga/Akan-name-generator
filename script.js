@@ -1,4 +1,5 @@
 function generateAkanName() {
+
   const day = parseInt(document.getElementById('day').value);
   const month = parseInt(document.getElementById('month').value);
   const year = parseInt(document.getElementById('year').value);
@@ -23,4 +24,5 @@ function generateAkanName() {
 
   const akanName = akanNames[gender][dayOfWeek];
   document.getElementById('result').textContent = `Your Akan name is ${akanName}.`;
+  
 }
